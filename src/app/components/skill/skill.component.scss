@@ -1,0 +1,59 @@
+.skill
+{
+   margin: 10px;
+    height: 100%;
+}
+.skill_list{
+    display: flex;
+  
+    justify-content: center;
+  flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.card_skill
+{
+   margin: 10px;
+    background-color: lightgrey;
+    width:15vw;
+    height: 25vh;
+    border-radius: 25px;
+    overflow: hidden;
+}
+img{
+    width:100%;
+    height: 100%;
+}
+
+// # Mobile
+// @media (min-width:480px) 
+// {
+
+// }
+
+
+@media only screen and (max-width: 600px) {
+    .skill_list{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      width: 100%;
+      margin: 0px;
+    }
+    .card_skill
+    {
+        display: flex;
+        background-color: lightgrey;
+        width:25vw;
+        height: 25vh;
+        border-radius: 25px;
+
+    }
+}
+// # Tablet
+// only screen and (min-width: 768px) 
