@@ -1,26 +1,78 @@
 .nav{
     width: 100%;
-    background-color: white;
-    height: 90px;
+    background-color: transparent;
+    height: 80px;
     top: 0;
-    display: flex;
+    // padding: 10px;
     box-shadow: 0px 10px 20px -6px rgba(0,0,0,0.75);
--webkit-box-shadow: 0px 10px 20px -6px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 10px 20px -6px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 10px 20px -6px rgba(0,0,0,0.75);
-
-
     z-index: 999;
+    font-size: 30px;
+    color: white;
+    position:fixed
+}
+.navbarShow{
+    background-color: white;
 }
 
 
 .left_nav{
-    
-    float: right;
+    display: flex;
+    align-items: center;
+    height:100%;
+    padding-left: 20px;
+    float: left;
 
 }
-.rigth_nav
-{
-    display:flex;
-    float: left;
-    // justify-content: space-around;
+.rigth_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   padding-right: 10px;
+    height:100%;
+    float: right;
+    .about
+    {
+        padding-right: 10px;
+        cursor: pointer;
+    }
+    .skills
+    {
+        padding-right: 10px;
+        cursor: pointer;
+    }
+    .projects
+    {
+        padding-right: 10px;
+        cursor: pointer;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    
+
+
+    .rigth_nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       padding-right: 10px;
+        height:100%;
+        float: right;
+        .about
+        {
+            display: none;
+        }
+        .skills
+        {
+            display: none;
+        }
+        .projects
+        {
+            display: none;
+        }
+    }
 }
