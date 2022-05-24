@@ -7,7 +7,7 @@
 .company_name
 {
     text-align: center;
-    // margin-top: -150px;
+    margin-top: -140px;
     font-size: 30px;
     font-weight: bolder;
 }
@@ -18,6 +18,7 @@
     align-items: center;
     width: 100%;
     height: 100%;
+    // color: var(--primaryColor);
 }
 
 .card_exp
@@ -31,6 +32,11 @@
     background-color: white;
     overflow: hidden;
     
+}
+
+
+.card_exp:hover{
+    border: 5px solid var(--baseColor);
 }
 .card{
     width: 70%;
@@ -47,6 +53,15 @@ img{
 
 
 @media only screen and (max-width: 600px) {
+   
+    .card{
+        width: 100%;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+          margin-bottom: -50px;
+        flex-wrap: wrap;
+    }
     .exp{
         
         margin-top: 10%;

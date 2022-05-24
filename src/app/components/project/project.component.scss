@@ -6,6 +6,32 @@
     background-color: lightgrey;
 }
 
+
+
+
+.card_footer{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.butn{
+    padding: 0;
+    background-color: transparent;
+    border-radius: 5px;
+    height: 30px;
+    width: 52px;
+    text-align: center;
+    border: 2px solid var(--baseColor);
+}
+
+.butn:hover{
+    background-color: var(--baseColor);
+    border-radius: 5px;
+    color: white;
+    border: 2px solid white;
+}
+
 .list_projects
 {
 
@@ -26,6 +52,7 @@
     overflow: hidden;
     flex-direction: column;
     margin: 10px;
+    padding-bottom: 5px;
 }
 .image
 {
@@ -103,3 +130,4 @@ img{
 }
   
 }
+

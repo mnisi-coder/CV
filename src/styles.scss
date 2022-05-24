@@ -1,5 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 
+:root 
+{
+    --baseColor: #2193b0;
+    --primaryColor: #2c3e50;
+}
 
 body{
     margin: 0;
@@ -14,6 +19,17 @@ body{
 {
     display: flex;
     justify-content: center;
-    // color: white;
+
+        color: var(--primaryColor);
+        text-decoration: underline;
+    
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+    font-weight: normal;
+    color: var(--baseColor);
     
 }
